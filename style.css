@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+.result {
+  position: relative;
+  top: 100px;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 40%;
+}
+
+.passRange {
+  position: relative;
+  top: 120px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.options {
+  position: relative;
+  margin: auto;
+  top: 180px;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.generatePass {
+  position: relative;
+  top: 250px;
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+#password {
+  flex-grow: 4;
+}
+
+#copyButton {
+  margin-left: 5px;
+}
+
+#passwordRange {
+  width: 400px;
+  cursor: pointer;
+}
+
+#passLength {
+  margin-left: 5px;
+}
+
+input[type="range"] {
+  background-color: #43e5f7;
+}
